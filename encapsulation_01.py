@@ -41,6 +41,12 @@
                                       # Practice code
 
 
+# Tips
+# private variable  __name  **(Ye variable direct access ni kr skty bss method k through hi kr skty hain)**
+# protected variable  _name  **(Ye variable hm direct access kr skty hain lekin hmy direct access ni krna chahiye ye developers ki asani k liye hota hai code ko smjhna asan hota hai k ye variable direct access ni krna chahiye)**
+# public variable  name **(Ye variable jb mrzi access kr skty hain)**
+
+
 class Person:
     def __init__(self, name, age):
         self.__name = name
@@ -63,6 +69,11 @@ print(person.get_name()) # yha mei method yani function k through private variab
 # print(person.__name)    **(agr mei ye code un comment kru ga to error ay ga kiyon k mei private variable ko access kr rha hu jo k access ni hota esi liye error arha hai)**  
 person.set_name("Amir")
 print(person.get_name())
+
+
+name = "umais"
+result = name[::-1]
+print(result)
 
 
         

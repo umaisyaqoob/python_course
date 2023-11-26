@@ -21,13 +21,13 @@ print(result)
 # with *args
 
 class Calculator2:
-    def  soke2(self, *args):
+    def  soke(self, *args):
         total2 = sum(args)
 
         return total2
 
 
 cal2 = Calculator2()
-result2 = cal2.soke2(1,4,5)
+result2 = cal2.soke(1,4,5)
 print(result2)
 

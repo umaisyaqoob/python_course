@@ -1,0 +1,10 @@
+s_input = "My23name45is"
+s_list = ["umais", 12]
+result = len(s_input)
+print(result)
+
+s_list.pop(-1)
+print(s_list)
+
+
+
