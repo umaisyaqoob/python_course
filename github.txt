@@ -1,0 +1,18 @@
+git config --global user.name "user name"
+git config --global user.email "user email"
+git config --list
+git remote add origin REPOSITARY LINK
+git status
+git add .
+git commit -m "Line for which updates in file" 			This command for narration therefor when i seen file in githup so                                                              so remembered me which had updates in file
+git push -u origin master					This command for in which branch you want to send a file 
+username							This command Given username
+token 								This command Given a token 
+
+
+
+
+git branch         					This command for check branch List
+git branch alpha   					This command for switch own branch that you want
+git branch -b New Branch Name  				This command for make a new branch
+
