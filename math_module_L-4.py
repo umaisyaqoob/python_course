@@ -22,19 +22,21 @@ power = pow(3, 2)
 print(power)
 
 
+#squaroot
 square_root = math.sqrt(64)
 print(square_root)
 
+#celing
 ceil_num = 9.5
 celing = math.ceil(ceil_num)
 print(celing)
 
-
+#floor
 floor_num = 9.5
 floor = math.floor(floor_num)
 print(floor)
 
-
+#pie
 pie = math.pi
 print(pie)
 

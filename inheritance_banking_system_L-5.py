@@ -1,6 +1,6 @@
 class Account:
     def __init__(self, account_number, account_holder, balance):
-        self._acc_num = account_number
+        self.acc_num = account_number
         self.acc_hol = account_holder
         self.balance = balance
 
@@ -40,3 +40,5 @@ acc_sav.display_info()
 
 
 print(Acc._acc_num)
+
+

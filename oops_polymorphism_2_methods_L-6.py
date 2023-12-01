@@ -1,3 +1,6 @@
+# Python mei polymorphism do tariko sy hota hai aik (overloading), (overriding)
+# polymorphism ka matlab hota hai (bht sy forms)
+
 def print_fun(*args):
     for rec in args:
         print(rec)
