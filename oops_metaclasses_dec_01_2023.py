@@ -7,6 +7,12 @@ level par intervene kar sakte hain."""
 
 class Meta(type):
     def __new__(cls, name, bases, dct):
+        # Yeh __new__ method class ko create karte waqt call hota hai
+        # cls: class jo create ho rahi hai (Meta)
+        # name: class ka naam
+        # bases: inherit ki ja rahi classes
+        # dct: class attributes (variables aur methods)
+
         # Customizing class blueprint
         dct['custom_attribute'] = 'This is a custom attribute'
         dct['custom_attribute'] = 'Umais'

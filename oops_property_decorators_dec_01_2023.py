@@ -7,8 +7,9 @@ class CollageInfo:
     @property
     def collage_detail(self):
         return f"{self.collage_name} is on {self.address}"
-    def test():
-        return f"Umais"
+    
+    # def test():
+    #     return f"Umais"
     
     @collage_detail.setter
     def collage_detail(self, data):
@@ -30,6 +31,6 @@ print(collage_info.collage_detail)
 
 del collage_info.collage_detail
 
-print(collage_info.collage_detail)
+# print(collage_info.test())
 
 
