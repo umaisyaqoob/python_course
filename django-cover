@@ -1,0 +1,4 @@
+django complete guidance
+
+1- django-admin --version     # Check Django version for Global System
+2- python3 -m djnago --version  # Check Django version for specific django project
